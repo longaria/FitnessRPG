@@ -23,17 +23,21 @@ two databases: a 'DummyGym' database and a 'GameData' database.
 It also contains important game data like item and monster stats.  
 
 The Mobile App is the game running on a mobile phone (build in Unity as an Android build, but also works as an iOS or Windows Desktop Build).
-This is the app that members of a fitness center can use to actually play the game. The Mobile App connects to a local server
+This is the app that members of a fitness center can use to actually play the game. The Mobile App connects to a MySQL database on a local server
+to load game and player data from the 'GameData' database. Before 
 
 # Project Contents:
 
 The complete Unity Project SourceCode folder is available under FitnessRPG Source (for both Mobile App and Public Display App components).
+
 A Windows executable build of the 'Mobile App' component under FitnessRPGMA (currently won't work without a local server + MYSQL database setup).
 
 TODO/Upcoming: 
 
 Executable Android Build of the Mobile App Version with Fingerprint Interactions and Gestures (requiring a local server + database).
+
 Executable Windows Build of the Public Display App Version of the Game under FitnessRPGPD (will also require a local server + MySQL database setup).
+
 'Offline' executable Versions of both Mobile App and Public Display App to run without requiring a local network + database setup.
 
  
