@@ -24,11 +24,17 @@ It also contains important game data like item and monster stats.
 
 The Mobile App is the game running on a mobile phone (build in Unity as an Android build, but also works as an iOS or Windows Desktop Build).
 This is the app that members of a fitness center can use to actually play the game. The Mobile App connects to a MySQL database on a local server
-to load game and player data from the 'GameData' database. Before 
+to load game and player data from the 'GameData' database. Before the players can login, they need to sign up first with the same name, they used 
+to sign up for the gym. This is cross-checked with the 'dymmygym' data.
+
+The Public Display App is a Windows Build App intended to be run locally on a big screen display in the gym. It contains leaderboards of the best
+gym members in various categories, displaying the avatars    
 
 # Project Contents:
 
 The complete Unity Project SourceCode folder is available under FitnessRPG Source (for both Mobile App and Public Display App components).
+
+Written code / script files can be found under FitnessRPG Source/FitnessRPG/Assets/Scripts/.
 
 A Windows executable build of the 'Mobile App' component under FitnessRPGMA (currently won't work without a local server + MYSQL database setup).
 
