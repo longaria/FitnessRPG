@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - myPlayer
+  - myEnemy
+  - projectile
+  - myManager
+  - playerName
+  - playerLevel
+  - playerHB
+  - playerHBTxT
+  - enemyName
+  - enemyLevel
+  - enemyHB
+  - enemyHBTxT
+  - xpBar
+  - centerText
+  - playerDMG
+  - enemyDMG
+  - myCanvas
+  - myChest
+  - xpText
+  - skipButton
+  - ultimaBar
+  - crosshair
+  - ultimateText
+  - myPanel
+  - myItem
+  - congratulationsText
+  - loot
+  - ultimateProjectile
+  - block
+  - MALevelButton
+  - firstDecimal
+  - secondDecimal
+  - myProfile
+  - shopItem
+  - playerDelText
+  - enemyDelText
+  - playerDel
+  - enemyDel
+  - enemyUlt
+  - enemyUltText
+  - enemyUltDel
+  - playerRec
+  - playerRecText
+  - FxTemporaire
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: BackgroundSortingLayer
+    uniqueID: 758324371
+    locked: 0
+  - name: Players
+    uniqueID: 3673947113
+    locked: 0
+  - name: Foreground
+    uniqueID: 2111084407
+    locked: 0
+  - name: UIElements
+    uniqueID: 1787819627
+    locked: 0
+  - name: myLayer
+    uniqueID: 4073227689
+    locked: 0
+  - name: 
+    uniqueID: 4270781703
+    locked: 0

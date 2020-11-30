@@ -1,0 +1,10 @@
+﻿RegisterURL:	http://localhost/sqlconnect/register.php
+LoginURL:	http://localhost/sqlconnect/login.php
+CheckGymURL:	http://localhost/sqlconnect/checkGym.php
+SaveProfileDataURL:	http://localhost/sqlconnect/savedata.php
+LoadProfileDataURL:	http://localhost/sqlconnect/loaddata.php
+LoadItemDataURL:	http://localhost/sqlconnect/loaditems.php
+LoadEnemiesURL:	http://localhost/sqlconnect/loadenemies.php
+GymScheduleURL:	http://localhost/sqlconnect/gymschedule.php
+GymParticipationURL:	http://localhost/sqlconnect/participationlist.php
+LoadAllPlayersURL:	http://localhost/sqlconnect/loadAllPlayers.php

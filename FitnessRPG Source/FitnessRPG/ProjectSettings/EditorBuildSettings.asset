@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MALogin.unity
+    guid: c540d23b3b872a4468b42ad008495036
+  - enabled: 1
+    path: Assets/Scenes/MAWorld.unity
+    guid: 15a5f27e6d6e97a4797258878963dec6
+  - enabled: 1
+    path: Assets/Scenes/MAFight.unity
+    guid: f28ea46867e035541a348f2dab48865a
+  - enabled: 0
+    path: Assets/Scenes/PDStats.unity
+    guid: 6df5c7ef0faa5304d869d3537da1640b
+  - enabled: 0
+    path: Assets/Scenes/PDFight.unity
+    guid: bb320dacd5fab6944b446e028c117e79
+  m_configObjects: {}
