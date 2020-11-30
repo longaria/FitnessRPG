@@ -1,0 +1,10 @@
+﻿RegisterURL:	http://192.168.0.101/sqlconnect/register.php
+LoginURL:	http://192.168.0.101/sqlconnect/login.php
+CheckGymURL:	http://192.168.0.101/sqlconnect/checkGym.php
+SaveProfileDataURL:	http://192.168.0.101/sqlconnect/savedata.php
+LoadProfileDataURL:	http://192.168.0.101/sqlconnect/loaddata.php
+LoadItemDataURL:	http://192.168.0.101/sqlconnect/loaditems.php
+LoadEnemiesURL:	http://192.168.0.101/sqlconnect/loadenemies.php
+GymScheduleURL:	http://192.168.0.101/sqlconnect/gymschedule.php
+GymParticipationURL:	http://192.168.0.101/sqlconnect/participationlist.php
+LoadAllPlayersURL:	http://192.168.0.101/sqlconnect/loadAllPlayers.php
