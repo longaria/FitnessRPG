@@ -7,12 +7,16 @@
 Gamification: The use of Gaming Elements (like badges, points, achievments, sense of progression, competition etc.) in a non-gaming context for motivational purposes.
 
 
-The project consists of a classical RPG game developed in Unity for Mobile Phones and Windows. 
+The project consists of a classical RPG game developed in Unity for Mobile Phones and Windows.
+ 
 It contains virtual resources called 'Activity Points' (AP) that are tied to the activity and participation in a (physical) gym.
 
-AP are required to progress in the game by challenging monsters, acquiring experience points, loot etc. 
-AP are earned by booking courses on the website of a fitness center.  
-activity 
+AP are required to progress in the game by challenging monsters, acquiring experience points, loot etc.
+ 
+AP are earned by booking courses on the website of a fitness center.
+
+activity\r\n test
+test 
 
 #Setup:
 
