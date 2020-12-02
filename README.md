@@ -53,14 +53,17 @@ Executable Windows Build of the Public Display App Version of the Game under Fit
 # Installation:
 
 Setting up a local web server with a MySQL database:
+
 The recommended (and utilized) way is to install XAMPP. Once installed press 'Start' in the XAMPP control panel for the Apache and MySQL Module. 
 
 Creating and importing data into a database: 
+
 Press 'Admin' on the MySQL Module in the XAMPP control panel. This will open phpMyAdmin in your web browser. First you'll need to create a 
 new user and a password, then create two empty databases 'dummygym' and 'unityaccess'. Import the player and game data into them by 
 clicking 'Import' and browsing the two sql-Files 'dummygym.sql' and 'unityaccess.sql' included in the project. 
 
 Adding php files folder to the local web server:
+
 Open your installed XAMPP folder, usually found in C:\xampp. Copy the folder 'sqlconnect' included in the project into the subfolder htdocs. 
 The contents of the htdocs folder are accessed by the localhost URL. The sqlconnect folder contains all php-files that are called by our apps
 via Webrequests to access our database. Open the file config.php in the sqlconnect folder and make sure that the database names,
