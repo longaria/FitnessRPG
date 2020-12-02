@@ -13,9 +13,9 @@ It contains virtual resources called 'Activity Points' (AP) that are tied to the
 AP are required to progress in the game by challenging monsters, acquiring experience points, loot etc.
 AP are earned by booking courses on the website of a fitness center.
 
-#Setup:
+# Setup:
 
-The whole project consists of three components - Mobile App, Public Display App, Local Server running MySQL containing 
+The whole project consists of three components - Mobile App, Public Display App, Local Web Server running MySQL containing 
 two databases: a 'DummyGym' database and a 'GameData' database. 
 
 'DummyGym' simulates the database of a physical gym containing membership information and an upcoming courses schedule.
@@ -31,12 +31,16 @@ The Public Display App is a Windows Build App intended to be run locally on a bi
 gym members in various categories, displaying the avatars    
 
 # Project Contents:
-
+ 
 The complete Unity Project SourceCode folder is available under FitnessRPG Source (for both Mobile App and Public Display App components).
+
+IMPORTANT NOTE: 
+The source folder is missing a 1.7GB resourses.resS file, which can't be uploaded and stored for free (Git LFS quota: 1GB), so the source project can't be
+built as of now!
 
 Written code / script files can be found under FitnessRPG Source/FitnessRPG/Assets/Scripts/.
 
-A Windows executable build of the 'Mobile App' component under FitnessRPGMA (currently won't work without a local server + MYSQL database setup).
+A Windows executable build of the 'Mobile App' component under FitnessRPGMA (won't run without a local web server + MYSQL database setup).
 
 TODO/Upcoming: 
 
@@ -45,8 +49,6 @@ Executable Android Build of the Mobile App Version with Fingerprint Interactions
 Executable Windows Build of the Public Display App Version of the Game under FitnessRPGPD (will also require a local server + MySQL database setup).
 
 'Offline' executable Versions of both Mobile App and Public Display App to run without requiring a local network + database setup.
-
- 
 
 # Installation:
 
